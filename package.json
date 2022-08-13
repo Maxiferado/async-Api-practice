@@ -4,7 +4,7 @@
   "description": "proyectoPractico de asyncronismos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-page -d src"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,7 @@
   "dependencies": {
     "node-fetch": "^3.2.10"
   },
-  "type": "module"
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
